@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.star {
+  color: goldenrod;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+.star::before {
+  content: "\2606";
+  cursor: pointer;
+}
+
+.star.rate::before {
+  content: "\2605";
+  cursor: pointer;
+}
